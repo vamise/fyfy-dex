@@ -220,7 +220,7 @@ export default function StandaloneBalancesDisplay() {
           First time trading
         </div>
         <div style={{ fontSize: 16, color: '#f0f0f0' }}>
-          on Raydium?
+          on Fyfy?
         </div>
         <a
           href={'https://fyfy.gitbook.io/fyfy/'}

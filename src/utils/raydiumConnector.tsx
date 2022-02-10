@@ -1,7 +1,7 @@
 import { TradeLayout } from './types';
 
 export default class RaydiumApi {
-  static URL: string = 'https://api.fyfy.app/';
+  static URL: string = 'https://api.raydium.app/';
 
   static async get(path: string) {
     try {
@@ -11,7 +11,7 @@ export default class RaydiumApi {
         return responseJson.success ? responseJson.data.reverse() : null;
       }
     } catch (err) {
-      console.log(`Error fetching from Raydium API ${path}: ${err}`);
+      console.log(`Error fetching from Fyfy API ${path}: ${err}`);
     }
     return null;
   }

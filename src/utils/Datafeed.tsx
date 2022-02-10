@@ -3,7 +3,7 @@ import { useMemo } from 'react';
 import { USE_MARKETS } from './markets';
 import { sleep } from './utils';
 
-const URL_SERVER = 'https://api.fyfy.app/tv/';
+const URL_SERVER = 'https://api.raydium.app/tv/';
 
 export const useTvDataFeed = () => {
   return useMemo(() => makeDataFeed(), []);
@@ -205,7 +205,7 @@ const makeDataFeed = () => {
           symbol: item.name,
           full_name: item.name,
           description: item.name,
-          exchange: 'Raydium',
+          exchange: 'Fyfy',
           params: [],
           type: 'spot',
           ticker: item.name
