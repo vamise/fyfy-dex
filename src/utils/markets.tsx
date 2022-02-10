@@ -91,19 +91,19 @@ const _MARKETS = [
     programId: new PublicKey('9xQeWvG816bUx9EPjHmaT23yvVM2ZWbrrpZb9PusVFin'),
   },
   // {
-  //   name: 'FYFY/USDT-V2',
+  //   name: 'RAY/USDT-V2',
   //   deprecated: true,
   //   address: new PublicKey('HZyhLoyAnfQ72irTdqPdWo2oFL9zzXaBmAqN72iF3sdX'),
   //   programId: new PublicKey('EUqojwWA2rd19FZrzeBncJsm38Jm1hEhE3zsmX3bRc2o'),
   // },
   // {
-  //   name: 'FYFY/USDC-V2',
+  //   name: 'RAY/USDC-V2',
   //   deprecated: true,
   //   address: new PublicKey('Bgz8EEMBjejAGSn6FdtKJkSGtvg4cuJUuRwaCBp28S3U'),
   //   programId: new PublicKey('EUqojwWA2rd19FZrzeBncJsm38Jm1hEhE3zsmX3bRc2o'),
   // },
   // {
-  //   name: 'FYFY/SRM-V2',
+  //   name: 'RAY/SRM-V2',
   //   deprecated: true,
   //   address: new PublicKey('HSGuveQDXtvYR432xjpKPgHfzWQxnb3T8FNuAAvaBbsU'),
   //   programId: new PublicKey('EUqojwWA2rd19FZrzeBncJsm38Jm1hEhE3zsmX3bRc2o'),
